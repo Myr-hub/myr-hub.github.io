@@ -1,19 +1,11 @@
-# 棋牌文库
+# 棋牌文库 · 轻量图片版
 
-静态网站，可发布到 GitHub Pages。
+使用现有仓库，无需重建。
+首页“文档”按钮直接打开 qixing.html；docs.html 为旧入口兼容跳转。
+联系方式：Telegram @root4433，链接 https://t.me/root4433。
+35张图片使用media/01.webp至media/35.webp，单张不超过205000字节。
+正文和点击放大均使用WebP，不再引用旧PNG或批次目录。
 
-## 当前内容
-- index.html：动态彩雾首页
-- docs.html：文章列表
-- qixing.html：七星棋牌项目介绍，包含35张展示图片
-- images/qixing/：文章使用的图片，保留已处理版本的原文件画质
-- article-gallery.css、article-gallery.js：图文排版及点击放大
-- home.css、home.js、style.css、favicon.svg：页面样式、动画与图标
-
-## 上传
-将本文件夹里的网页、样式、脚本、图标和 images 文件夹上传到仓库根目录。images 文件夹结构必须保留。不要上传ZIP本身；先解压后上传其中内容。
-
-当前文章不包含完整游戏源码，未提供源码下载入口。Telegram仍待填写。
-
-article.html、guide.html 是早期指南页，已不在当前文章列表中展示。
-
+上传时进入本文件夹，将里面所有文件和media文件夹拖到仓库根目录上传。
+不要将整个外层文件夹上传，不要上传ZIP本身。
+旧图片目录暂时保留即可，不会被新版页面加载。
